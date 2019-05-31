@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="256b2004-734e-4c0c-ac76-ca940fddfb13" name="Default Changelist" comment="feature">
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerrados.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
@@ -89,17 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerrados.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -107,13 +108,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="121" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
                 <element signature="method#reportarDiaHabil#0;class#ReportarDiaLaborado#0" />
-                <element signature="e#6803#6804#0" expanded="true" />
+                <element signature="e#6582#6583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,6 +173,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getUsuarioBuild</find>
+      <find>tar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,11 +205,12 @@
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/model/builder/InformacionLaboralBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/maxtime.feature" />
         <option value="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/runners/RunnerTags.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerrados.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" />
       </list>
     </option>
   </component>
@@ -409,7 +411,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6824877" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6824877" weight="0.24962178" />
       <window_info id="Structure" order="1" sideWeight="0.31751227" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -799,19 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="121" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
-            <element signature="method#reportarDiaHabil#0;class#ReportarDiaLaborado#0" />
-            <element signature="e#6803#6804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/FormularioReporteLaboralUserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -832,29 +821,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="17">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
+            <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
+            <element signature="method#reportarDiaHabil#0;class#ReportarDiaLaborado#0" />
+            <element signature="e#6582#6583#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerrados.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="432">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

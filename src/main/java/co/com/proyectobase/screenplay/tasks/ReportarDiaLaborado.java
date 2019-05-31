@@ -5,7 +5,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.conditions.Check;
 import net.serenitybdd.screenplay.questions.CurrentVisibility;
 import net.serenitybdd.screenplay.questions.Visibility;
@@ -16,8 +15,6 @@ import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaReporteDiaExce
 import co.com.proyectobase.screenplay.interactions.Esperar;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isEnabled;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isSelected;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.TITULO_PAGINA_REPORTE_DIA;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.LBL_FECHA_DASHBOARD;
 import static co.com.proyectobase.screenplay.userinterface.BotonesMenuVerticalUserInterface.BTN_NUEVO_REPORTE_DIA;

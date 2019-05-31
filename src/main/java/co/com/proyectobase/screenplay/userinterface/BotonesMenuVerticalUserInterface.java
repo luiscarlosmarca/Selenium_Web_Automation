@@ -12,4 +12,8 @@ public class BotonesMenuVerticalUserInterface {
 
     public static final Target BTN_ABRIR_DIAS_CERRADOS = Target.the("Boton para ver los dias reportados")
             .locatedBy("//li[contains(text(),'Abrir Días Cerrados')]");
+
+    public static final Target BTN_EDITAR_REPORTE_DIA = Target.the("Boton para ver los dias reportados")
+            .locatedBy("//div/a[contains(@title,'Editar')]");
+
 }
