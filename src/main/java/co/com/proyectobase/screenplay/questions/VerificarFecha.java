@@ -2,16 +2,21 @@ package co.com.proyectobase.screenplay.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.conditions.Check;
+import net.serenitybdd.screenplay.questions.CurrentVisibility;
 import net.serenitybdd.screenplay.questions.Visibility;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.serenitybdd.screenplay.targets.Target;
+import org.apache.tools.ant.taskdefs.Tar;
 import org.joda.time.DateTime;
 
 import java.text.Format;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
-import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.LBL_FECHA_DASHBOARD;
+
+import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.*;
 import static co.com.proyectobase.screenplay.util.Constantes.DIA_REPORTADO;
 import java.util.Date;
 
@@ -20,15 +25,28 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 public class VerificarFecha implements Question<Boolean> {
 
     private Target target;
-    public VerificarFecha(Target target) {
+    private Boolean reportarDia=true;
+    public VerificarFecha(Target target, boolean reportarDia) {
 
         this.target=target;
+        this.reportarDia=reportarDia;
     }
 
     @Override
     public Boolean answeredBy(Actor actor) {
         actor.attemptsTo((WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()));
-        return Visibility.of(target.of(ObtenerEldiaSiguiente(actor))).viewedBy(actor).asBoolean();
+
+        actor.attemptsTo(
+                (Check.whether(reportarDia).andIfSo(
+                            (WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()))
+                        .otherwise(
+                                (WaitUntil.the(target, isVisible()).forNoMoreThan(60).seconds())
+                        )
+                )
+        );
+
+        Target verificarFecha=(reportarDia)?target.of(ObtenerEldiaSiguiente(actor)):target;
+        return Visibility.of(verificarFecha).viewedBy(actor).asBoolean();
     }
 
     private String ObtenerEldiaSiguiente(Actor actor) {
@@ -39,21 +57,12 @@ public class VerificarFecha implements Question<Boolean> {
         String diaSiguiente=diaReportadoArray[0]+"/"+diaReportadoArray[1]+"/"+diaReportadoArray[2];
         return diaSiguiente;
     }
-    public static Date ParseFecha(String fecha)
-    {
-        SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
-        Date fechaDate = null;
-        try {
-            fechaDate = formato.parse(fecha);
-        }
-        catch (ParseException ex)
-        {
-            System.out.println(ex);
-        }
-        return fechaDate;
-    }
+
 
     public static VerificarFecha delDiaSiguiente() {
-        return new VerificarFecha(LBL_FECHA_DASHBOARD);
+        return new VerificarFecha(LBL_FECHA_DASHBOARD,true);
+    }
+    public static VerificarFecha correctamente() {
+        return new VerificarFecha(LBL_FECHA_DASHBOARD,false);
     }
 }
