@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="256b2004-734e-4c0c-ac76-ca940fddfb13" name="Default Changelist" comment="feature">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerificarFecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerificarFecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerrados.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,19 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/runners/RunnerTags.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="77" column="37" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="44" />
+            <state relative-caret-position="444">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +64,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerrados.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerradosException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaReporteDiaException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="72" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="72" />
+              <folding>
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +92,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="342">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
+                <element signature="method#verificaCarga#0;class#ModificarDiasReportados#0" />
+                <element signature="method#modificarDiarepotado#0;class#ModificarDiasReportados#0" />
               </folding>
             </state>
           </provider>
@@ -119,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="45" selection-end-column="47" />
+            <state relative-caret-position="260">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
@@ -204,14 +211,15 @@
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/model/builder/InformacionLaboralBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/maxtime.feature" />
         <option value="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/runners/RunnerTags.java" />
-        <option value="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerrados.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerrados.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerificarFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerrados.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerradosException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java" />
       </list>
     </option>
   </component>
@@ -265,6 +273,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Base" type="b2602c69:ProjectViewProjectNode" />
@@ -438,12 +454,6 @@
           <line>18</line>
           <properties />
           <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -633,17 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaReporteDiaException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDelDashboard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -792,49 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerrados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="77" column="37" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="45" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
-            <element signature="e#6582#6583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/questions/VerificarFecha.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -849,14 +805,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ReportarDiaLaborado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#cerrarDia#0;class#ReportarDiaLaborado#0" />
+            <element signature="e#6582#6583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/DiasCerradosUserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/userinterface/BotonesMenuVerticalUserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaReporteDiaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="72" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/exceptions/NoCargaLaPantallaDiasCerradosException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/proyectobase/screenplay/stepdefinitions/MaxtimeStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/proyectobase/screenplay/tasks/ModificarDiasReportados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="342">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
+            <element signature="method#verificaCarga#0;class#ModificarDiasReportados#0" />
+            <element signature="method#modificarDiarepotado#0;class#ModificarDiasReportados#0" />
           </folding>
         </state>
       </provider>

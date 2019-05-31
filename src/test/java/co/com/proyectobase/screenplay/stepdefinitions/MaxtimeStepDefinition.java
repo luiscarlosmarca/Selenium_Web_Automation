@@ -1,5 +1,6 @@
 package co.com.proyectobase.screenplay.stepdefinitions;
 import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDelDashboard;
+import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDiasCerradosException;
 import co.com.proyectobase.screenplay.tasks.ModificarDiasReportados;
 import cucumber.api.java.Before;
 import cucumber.api.java.ast.Cuando;
@@ -9,18 +10,15 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
-import java.util.ArrayList;
-import java.util.Iterator;
+
 import java.util.List;
 import co.com.proyectobase.screenplay.tasks.AbrirElNavegador;
 import co.com.proyectobase.screenplay.tasks.IniciarSesion;
 import co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado;
 import co.com.proyectobase.screenplay.model.DatosParaIngresar;
 import co.com.proyectobase.screenplay.questions.VerificarFecha;
-import java.util.List;
 
 import static  co.com.proyectobase.screenplay.util.Constantes.NAVEGADOR;
-import static  co.com.proyectobase.screenplay.util.Constantes.POSICION_REGISTRO;
 
 import static co.com.proyectobase.screenplay.model.builder.CredencialesBuilder.credenciales;
 import static co.com.proyectobase.screenplay.model.builder.InformacionLaboralBuilder.infoLaboralPorDefecto;
@@ -76,7 +74,7 @@ public class MaxtimeStepDefinition {
     @Entonces("^la solicitud debe de quedar modificada correctamente$")
     public void laSolicitudDebeDeQuedarModificadaCorrectamente() {
         LUISCA.should(seeThat(VerificarFecha.correctamente()).orComplainWith(NoCargaLaPantallaDelDashboard.class,
-                NoCargaLaPantallaDelDashboard.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DASHBOARD));
+                NoCargaLaPantallaDiasCerradosException.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DIAS_CERRADOS));
     }
 
 
