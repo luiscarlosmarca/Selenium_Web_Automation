@@ -63,4 +63,20 @@ public class MaxtimeStepDefinition {
                 NoCargaLaPantallaDelDashboard.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DASHBOARD));
     }
 
+    @Cuando("^diligencia los datos necesarios para modificar$")
+    public void diligenciaLosDatosNecesariosParaModifica(List<DatosParaIngresar> dataTable) {
+        for (int i = 0; i < dataTable.size(); i++) {
+            DatosParaIngresar datos = dataTable.get(i);
+            LUISCA.attemptsTo(ModificaDiasReportaods.con(infoLaboralPorDefecto().conProyecto(datos.getProyecto()).
+                    conActividad(datos.getActividad()).conFecha(datos.getFecha()).isDiaHabil(datos.getDiaHabil())));
+        }
+    }
+
+    @Entonces("^la solicitud debe de quedar modificada correctamente$")
+    public void laSolicitudDebeDeQuedarModificadaCorrectamente() {
+        LUISCA.should(seeThat(VerificarFecha.correctamente()).orComplainWith(NoCargaLaPantallaDelDashboard.class,
+                NoCargaLaPantallaDelDashboard.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DASHBOARD));
+    }
+
+
 }

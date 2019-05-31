@@ -9,7 +9,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features="src/test/resources/features/maxtime.feature",
-		tags= "@Hoy",
+		tags= "@ModificarDiasReportados",
 		glue="co.com.proyectobase.screenplay.stepdefinitions",
 		snippets=SnippetType.CAMELCASE		)
 public class RunnerTags {
