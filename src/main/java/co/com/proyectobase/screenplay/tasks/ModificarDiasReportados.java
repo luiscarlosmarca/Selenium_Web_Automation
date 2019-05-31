@@ -34,15 +34,16 @@ public class ModificarDiasReportados implements Task {
         modificarDiarepotado(actor);
     }
     private void verificaCarga(Actor actor) {
-        actor.attemptsTo((WaitUntil.the(TITULO_PAGINA_REPORTE_DIA,isVisible()).forNoMoreThan(30).seconds()));
-        actor.should(seeThat(Visibility.of(TITULO_PAGINA_REPORTE_DIA).viewedBy(actor).asAQuestion()).orComplainWith(NoCargaLaPantallaDiasCerradosException.class,
+        actor.attemptsTo((WaitUntil.the(TITULO_PAGINA_REPORTE_DIAS_CERRADOS,isVisible()).forNoMoreThan(30).seconds()));
+        actor.should(seeThat(Visibility.of(TITULO_PAGINA_REPORTE_DIAS_CERRADOS).viewedBy(actor).asAQuestion()).orComplainWith(NoCargaLaPantallaDiasCerradosException.class,
                 NoCargaLaPantallaDiasCerradosException.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DIAS_CERRADOS));
     }
     private  void modificarDiarepotado(Actor actor){
-        actor.attemptsTo((WaitUntil.the(TXT_BUSCAR_DIAS, isVisible()).forNoMoreThan(10).seconds()),
+        actor.attemptsTo(Esperar.unMomento(3),(WaitUntil.the(TXT_BUSCAR_DIAS, isVisible()).forNoMoreThan(10).seconds()),
                 Enter.theValue(infoLaboral.getFecha()).into(TXT_BUSCAR_DIAS),
-                Click.on(BTN_BUSCAR_DIAS),(WaitUntil.the(GRID_DIAS_REPORTADOS,isVisible()).forNoMoreThan(30).seconds()),
-                Click.on(GRID_DIAS_REPORTADOS),(WaitUntil.the(LBL_DIA_REPORTADO,isVisible()).forNoMoreThan(30).seconds()),
+                Click.on(BTN_BUSCAR_DIAS),Esperar.unMomento(3),
+                (WaitUntil.the(GRID_DIAS_REPORTADOS.of(infoLaboral.getFecha()),isVisible()).forNoMoreThan(30).seconds()),
+                Click.on(GRID_DIAS_REPORTADOS.of(infoLaboral.getFecha())),(WaitUntil.the(LBL_DIA_REPORTADO,isVisible()).forNoMoreThan(30).seconds()),
                 Click.on(LBL_DIA_REPORTADO),(WaitUntil.the(BTN_EDITAR_REPORTE_DIA,isVisible()).forNoMoreThan(30).seconds()),
                 Click.on(BTN_EDITAR_REPORTE_DIA));
         Esperar.unMomento(5);

@@ -25,6 +25,6 @@
       Escenario: Modificar reportes de dias anteriores
         Cuando diligencia los datos necesarios para modificar
           |fecha|proyecto |tipoHora |servicio |actividad|horaEjecutada | comentario|
-          |22/06/2019|GBCO24|H. Proyecto|P. generales CA CVDS ágiles|CAPACITACIÓN METODOLOGÍA DE PRUEBAS|8|Investigacion de automatizacion reto maxtime|
+          |20/06/2019|GBCO24|H. Proyecto|P. generales CA CVDS ágiles|CAPACITACIÓN METODOLOGÍA DE PRUEBAS|8|MODIFICANDO DIA REPORTADO|
 
         Entonces la solicitud debe de quedar modificada correctamente

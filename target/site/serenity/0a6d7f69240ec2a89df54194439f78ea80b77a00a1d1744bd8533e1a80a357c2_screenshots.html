@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-05-2019 11:24</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-05-2019 16:17</span>
     <br style="clear:left"/>
 </div>
 
@@ -152,9 +152,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="pending-color">Modificar reportes de dias anteriores
+                                <span class="failing-color">Modificar reportes de dias anteriores
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -171,14 +171,100 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected: an element that is visible but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS')]">
+                            Assertion error: Expected: an element that is visible but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS')]
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected: an element that is visible<br>     but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACIÓN METODOLOGÍA DE PRUEBAS')]</pre>
+                                    </h5>
+                                    co.com.proyectobase.screenplay.tasks.ModificarDiasReportados.modificarDiarepotado(ModificarDiasReportados.java
+                                    :74) <br>
+                                    co.com.proyectobase.screenplay.tasks.ModificarDiasReportados.performAs(ModificarDiasReportados.java
+                                    :34) <br>
+                                    co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaModifica(MaxtimeStepDefinition.java
+                                    :69) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6326788953976940659.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="c924f2dc8fafc6542a4238cb330f8ace495a24aa08ff4f7354f9af802aacf19b.png" title="Dado que LuisCa quiere loguearse en la aplicaci&oacute;n de maxtime" width="1366"/>
                 <img src="c924f2dc8fafc6542a4238cb330f8ace495a24aa08ff4f7354f9af802aacf19b.png" title="LuisCa opens the Pagina inicio user interface" width="1366"/>
-                <img src="a8e86ea9bc766bd4a3f2e6a6a127ad564d35a231cdc3e9acbc9731b5ab33a62c.png" title="Cuando iniciar sesi&oacute;n" width="1366"/>
+                <img src="af3d72d4e2e53fe94ea01f33275eea5c49dcbfdf1c5feea6df088ccf93da1ac1.png" title="Cuando iniciar sesi&oacute;n" width="1366"/>
                 <img src="5322e3c3a3fd6cead6d302e1d7f78a5c449fd9368cafd4e437b9a0db3d112cd7.png" title="LuisCa enters 'lmarinc' into Input nombre usuario" width="1366"/>
                 <img src="e18bbfa1411d6427d9d3c872791e184313dcd82ced4aa420e34ec0737d87c7f8.png" title="LuisCa enters 'Mede987*-+' into Input contrase&ntilde;a" width="1366"/>
-                <img src="adaedc02e3c4005e951fb61440e3150fe6154e6ae7defc397661c745a1e163d5.png" title="LuisCa clicks on Bot&oacute;n conectarse: <span class='pending-color'>PENDING</span>" width="1366"/>
+                <img src="adaedc02e3c4005e951fb61440e3150fe6154e6ae7defc397661c745a1e163d5.png" title="LuisCa clicks on Bot&oacute;n conectarse" width="1366"/>
+                <img src="49d6f57aceb83e9429d5f5ea9446dff5d12b6e0d5861e025d774c6a7cd76fb4a.png" title="Then Boton para ver los dias reportados should be an element that is visible" width="1366"/>
+                <img src="d01d2559298cdb8699ae956cacf06ea7a04d9ac1a93499cc058cff594b1dc772.png" title="LuisCa clicks on Boton para ver los dias reportados" width="1366"/>
+                <img src="1e89211ae661ad95d1e1cb066e4d18b5c4d6076859475bbdde6fb188fb1dbc3d.png" title="Then Titulo de la pagina del reporte should be an element that is visible" width="1366"/>
+                <img src="1e89211ae661ad95d1e1cb066e4d18b5c4d6076859475bbdde6fb188fb1dbc3d.png" title="Then targeted ui state question" width="1366"/>
+                <img src="1e89211ae661ad95d1e1cb066e4d18b5c4d6076859475bbdde6fb188fb1dbc3d.png" title="Then Boton para ver los dias reportados should be an element that is visible" width="1366"/>
+                <img src="0b4ee33ab2cb2c4a40c9e1207a6d95eae465769f8657fa35bbd948d239cf5cf3.png" title="LuisCa enters '20/06/2019' into Boton para ver los dias reportados" width="1366"/>
+                <img src="b0859619e519f9ab93b53855bc5903ce7e216a4bb8efc8ac785dc1eb1ffdd66e.png" title="LuisCa clicks on Boton para ver los dias reportados" width="1366"/>
+                <img src="52eff6dcf91c6a3977e7a07c7be585aa58398da930b290a197ed18ca24480abf.png" title="Then Boton para ver los dias reportados should be an element that is visible" width="1366"/>
+                <img src="d4348ab87774d6f6c7577659304cd4d202105e596d670a0dc49fee28c26a4f6e.png" title="LuisCa clicks on Boton para ver los dias reportados" width="1366"/>
+                <img src="e8c288e3afa7b29ad61a6d0fb9207772218e75845cdb6dc0054c17ad01f48b21.png" title="Then Boton para ver los dias reportados should be an element that is visible" width="1366"/>
+                <img src="1ef5d30ab6772739d70507537cc275d47ef14fc2896b0ee9987237514f5fdfff.png" title="LuisCa clicks on Boton para ver los dias reportados" width="1366"/>
+                <img src="62008a50602565f7d3e760ccaac36f9b099be91fa9a6aea22a5780e079841dcb.png" title="Then Boton para ver los dias reportados should be an element that is visible" width="1366"/>
+                <img src="292842d6d9e118a6f738ad423cecd129c57c4c0761178ad3c8ca8795b9f906bf.png" title="LuisCa clicks on Boton para ver los dias reportados" width="1366"/>
+                <img src="b42ec6415d8ac19c4788e2dadfcfadbcd1aa2251b9c0329768ea1fb3fdf7e042.png" title="Then Boton para buscar en el frame should be an element that is visible" width="1366"/>
+                <img src="0329ef60a087381a619a20364ee75d7ab16a91568ca97e3c9fe9d58c8ba2af50.png" title="LuisCa clicks on Boton para buscar en el frame" width="1366"/>
+                <img src="b048ebd7b96d7dcb21427ebd78d44670888331940bbae6a8aa158b8d4b7daefd.png" title="Then Input text para buscar frame should be an element that is visible" width="1366"/>
+                <img src="221b209c1375f23d28c12b3a3a642b5bbdf1b651ba5cdea893b83306d211cc70.png" title="LuisCa enters 'GBCO24' into Input text para buscar frame" width="1366"/>
+                <img src="b503475b731fef3c81e19913071e15356ac44dc847183a4d90e7fbf6dbfb6878.png" title="LuisCa clicks on Boton para buscar frame" width="1366"/>
+                <img src="b503475b731fef3c81e19913071e15356ac44dc847183a4d90e7fbf6dbfb6878.png" title="Then Grid proyectos lbl proyectos should be an element that is visible" width="1366"/>
+                <img src="b42ec6415d8ac19c4788e2dadfcfadbcd1aa2251b9c0329768ea1fb3fdf7e042.png" title="LuisCa clicks on Grid proyectos lbl proyectos" width="1366"/>
+                <img src="b42ec6415d8ac19c4788e2dadfcfadbcd1aa2251b9c0329768ea1fb3fdf7e042.png" title="Then icono Lista de tipo de hora should be an element that is visible" width="1366"/>
+                <img src="d70e548929c0804aec273ee619b84077299a8ac5d3ed481522769b846d12c113.png" title="LuisCa clicks on icono Lista de tipo de hora" width="1366"/>
+                <img src="d70e548929c0804aec273ee619b84077299a8ac5d3ed481522769b846d12c113.png" title="Then Lista de tipo de hora should be an element that is visible" width="1366"/>
+                <img src="5a04ab456b4d4f1763e7fcb04b06276edafffc69cb5c7360ee89837e36129710.png" title="LuisCa clicks on Lista de tipo de hora" width="1366"/>
+                <img src="5f539b6ab382cae7309559da733268e8cb08549b0d2a126cdd0a0ac7b00e6f7d.png" title="Then icono Lista de servicio should be an element that is visible" width="1366"/>
+                <img src="b8163f319183e22d0ddf243d88009fb0170446b8a8f0c6ffb17a9c64970d02d5.png" title="LuisCa clicks on icono Lista de servicio" width="1366"/>
+                <img src="ed88fdd5b724242ffdfd1c892a646a90cc28c2a51ee68f21f4435115827ea54f.png" title="Then Input text para buscar frame should be an element that is visible" width="1366"/>
+                <img src="cb8121638a92d5367074c167ee2dece3223c7bbf2709516cb16cec20a0b71e9e.png" title="LuisCa enters 'P. generales CA CVDS &aacute;giles' into Input text para buscar frame" width="1366"/>
+                <img src="e935e8bdff7ac0ceae985548b66bc827d20b53be2d083f3446ea41d2789bdf99.png" title="LuisCa clicks on Boton para buscar frame" width="1366"/>
+                <img src="e935e8bdff7ac0ceae985548b66bc827d20b53be2d083f3446ea41d2789bdf99.png" title="Then Grid proyectos lbl servicios should be an element that is visible" width="1366"/>
+                <img src="b42ec6415d8ac19c4788e2dadfcfadbcd1aa2251b9c0329768ea1fb3fdf7e042.png" title="LuisCa clicks on Grid proyectos lbl servicios" width="1366"/>
+                <img src="b42ec6415d8ac19c4788e2dadfcfadbcd1aa2251b9c0329768ea1fb3fdf7e042.png" title="Then icono Lista de actividades should be an element that is visible" width="1366"/>
+                <img src="01815b5bcacad98f8acd4e01088b82142397bca4c3c81f0d6684ddc478e96f8a.png" title="LuisCa clicks on icono Lista de actividades" width="1366"/>
+                <img src="0d1d4040508a13b8e90042646f97e130a23fcafb71e5e4ec884141ff94f1976a.png" title="Then Lista de actividades should be an element that is visible: <span class='failing-color'>FAILURE</span>" width="811"/>
             </div>
         </div>
 

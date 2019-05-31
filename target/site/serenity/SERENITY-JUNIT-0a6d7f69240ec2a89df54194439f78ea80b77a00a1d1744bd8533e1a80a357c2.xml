@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reporte diario de trabajo maxtime" skipped="1" tests="1" time="12.51" timestamp="2019-05-31 11:24:26"><testcase name="Modificar reportes de dias anteriores"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="98.07" timestamp="2019-05-31 04:17:12"><testcase name="Modificar reportes de dias anteriores"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACIÓN METODOLOGÍA DE PRUEBAS')]" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACIÓN METODOLOGÍA DE PRUEBAS')]</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //td[contains(@id,'Actividad_Edit_DD')][contains(text(), 'CAPACITACIÓN METODOLOGÍA DE PRUEBAS')]&#13;
+co.com.proyectobase.screenplay.tasks.ModificarDiasReportados.modificarDiarepotado(ModificarDiasReportados.java:74)&#13;
+co.com.proyectobase.screenplay.tasks.ModificarDiasReportados.performAs(ModificarDiasReportados.java:34)&#13;
+co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaModifica(MaxtimeStepDefinition.java:69)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

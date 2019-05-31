@@ -9,6 +9,8 @@ public class FormularioReporteLaboralUserInterface {
 
     public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
             .locatedBy("//h1/span[contains(text(),'Reporte Dia')]");
+    public static final Target TITULO_PAGINA_REPORTE_DIAS_CERRADOS= Target.the("Titulo de la pagina del reporte")
+            .locatedBy("//h1/span[contains(text(),'Abrir Dias Cerrados')]");
 
     public static final Target LBL_FECHA_DASHBOARD = Target.the("lbl fecha reporte dashboard")
             .locatedBy("//*[contains(text(), '{0}')]");
@@ -47,8 +49,7 @@ public class FormularioReporteLaboralUserInterface {
     public static final Target BTN_BUSCAR_SERVICIO = Target.the("icono Lista de servicio")
             .locatedBy("//div[contains(@id,'Servicio_Edit_Find')]");
     public static final Target ICON_CMB_ACTIVIDAD = Target.the("icono Lista de actividades")
-            .locatedBy("//img[contains(@id,'Actividad_Edit_DD')]");
-
+            .locatedBy("//div[contains(@id,'Actividad_Edit_Find')]");
 
 
     public static final Target CMB_ACTIVIDAD = Target.the("Lista de actividades")
