@@ -1,5 +1,6 @@
 package co.com.proyectobase.screenplay.stepdefinitions;
 import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDelDashboard;
+import co.com.proyectobase.screenplay.tasks.ModificarDiasReportados;
 import cucumber.api.java.Before;
 import cucumber.api.java.ast.Cuando;
 import cucumber.api.java.es.Dado;
@@ -67,7 +68,7 @@ public class MaxtimeStepDefinition {
     public void diligenciaLosDatosNecesariosParaModifica(List<DatosParaIngresar> dataTable) {
         for (int i = 0; i < dataTable.size(); i++) {
             DatosParaIngresar datos = dataTable.get(i);
-            LUISCA.attemptsTo(ModificaDiasReportaods.con(infoLaboralPorDefecto().conProyecto(datos.getProyecto()).
+            LUISCA.attemptsTo(ModificarDiasReportados.con(infoLaboralPorDefecto().conProyecto(datos.getProyecto()).
                     conActividad(datos.getActividad()).conFecha(datos.getFecha()).isDiaHabil(datos.getDiaHabil())));
         }
     }

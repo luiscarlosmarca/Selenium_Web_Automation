@@ -37,7 +37,6 @@ import static co.com.proyectobase.screenplay.util.Constantes.DIA_REPORTADO;
 
 public class ReportarDiaLaborado implements Task {
     private InformacionLaboral infoLaboral;
-    private Boolean visible=false;
     public ReportarDiaLaborado(InformacionLaboral infoLaboral) {
         this.infoLaboral=infoLaboral;
     }
@@ -56,7 +55,7 @@ public class ReportarDiaLaborado implements Task {
         }
 
     }
-
+    // TODO : CREATE TASK CERRAR DIA
     private void cerrarDia(Actor actor) {
         actor.attemptsTo(WaitUntil.the(BTN_CERRAR_REPORTE_DIA,isVisible()).forNoMoreThan(60).seconds(),
                 Click.on(BTN_CERRAR_REPORTE_DIA),
