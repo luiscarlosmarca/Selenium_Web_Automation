@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e179b69963f05d8a4f43737bf0977c5625f36177fb4f6bb3d7990cc9f0ad67e9.html">Reporte Diario De Trabajo Maxtime</a></span>
+                > <span class="truncate-60"><a
+                    href="3a66c1b4cc243f157cf2d12fbe567f059af1553429e2de7077178dd992cffbea.html">Reportar actividades de trabajo de hoy </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-05-2019 10:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Reporte Diario De Trabajo Maxtime </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b6c630b96c6aaffd2be135dfa241fe6a14b7411c3add2f3e057aab9e62d558d5.html">Hoy
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Reportar actividades de trabajo de hoy
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c924f2dc8fafc6542a4238cb330f8ace495a24aa08ff4f7354f9af802aacf19b.png" title="Dado que LuisCa quiere loguearse en la aplicaci&oacute;n de maxtime" width="1366"/>
+                <img src="c924f2dc8fafc6542a4238cb330f8ace495a24aa08ff4f7354f9af802aacf19b.png" title="LuisCa opens the Pagina inicio user interface" width="1366"/>
+                <img src="af3d72d4e2e53fe94ea01f33275eea5c49dcbfdf1c5feea6df088ccf93da1ac1.png" title="Cuando iniciar sesi&oacute;n" width="1366"/>
+                <img src="5322e3c3a3fd6cead6d302e1d7f78a5c449fd9368cafd4e437b9a0db3d112cd7.png" title="LuisCa enters 'lmarinc' into Input nombre usuario" width="1366"/>
+                <img src="e18bbfa1411d6427d9d3c872791e184313dcd82ced4aa420e34ec0737d87c7f8.png" title="LuisCa enters 'Mede987*-+' into Input contrase&ntilde;a" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="LuisCa clicks on Bot&oacute;n conectarse" width="1366"/>
+                <img src="7f0d04f1de4e5c1f85938c614494d11f173b455dcd31f7156a38d723027f6c03.png" title="Cuando diligencia los datos necesarios para reportar
+| fecha | proyecto | tipoHora | servicio | actividad | horaEjecutada | comentario | diaHabil |
+| 22/06/2019 | GBCO24 | H. Proyecto | P. generales CA CVDS &aacute;giles | CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS | 8 | Investigacion de automatizacion reto maxtime | false |
+| 23/06/2019 | GBCO24 | H. Proyecto | P. generales CA CVDS &aacute;giles | CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS | 8 | Investigacion de automatizacion reto maxtime | false |
+| 24/06/2019 | GBCO24 | H. Proyecto | P. generales CA CVDS &aacute;giles | CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS | 8 | Investigacion de automatizacion reto maxtime | false |
+| 25/06/2019 | GBCO24 | H. Proyecto | P. generales CA CVDS &aacute;giles | CAPACITACI&Oacute;N METODOLOG&Iacute;A DE PRUEBAS | 8 | Investigacion de automatizacion reto maxtime | true |" width="1366"/>
+                <img src="09d979c6865d73a07a81e921897bc49de7c0a87820539947c345b7fa3f0c1f93.png" title="Then lbl fecha reporte dashboard should be an element that is visible" width="1366"/>
+                <img src="81ec373dd2330628f1f583b01952c3c6a8ccad28f1cacbe8a3c23744cbd9203d.png" title="LuisCa clicks on lbl fecha reporte dashboard" width="1366"/>
+                <img src="015c9a1060712e1f564a3a674e0879b5c33a44cb62d3546e79edceb9d737c4a0.png" title="LuisCa clicks on lbl fecha reporte dashboard" width="1366"/>
+                <img src="f5e6060645fce49901fccc01d424b2320278b8b22d24f3b693374092e2615281.png" title="Then Titulo de la pagina del reporte should be an element that is visible" width="1366"/>
+                <img src="f5e6060645fce49901fccc01d424b2320278b8b22d24f3b693374092e2615281.png" title="Then targeted ui state question" width="1366"/>
+                <img src="f5e6060645fce49901fccc01d424b2320278b8b22d24f3b693374092e2615281.png" title="Then Boton para cerrar un nuevo reporte should be an element that is visible" width="1366"/>
+                <img src="f5e6060645fce49901fccc01d424b2320278b8b22d24f3b693374092e2615281.png" title="LuisCa clicks on Boton para cerrar un nuevo reporte" width="1366"/>
+                <img src="723595f2a1a0c57f337143d3786ee4ae66505625137c02cbc89a7c801433bb0b.png" title="Then Boton de cerrar frame de reporte de dia should be an element that is visible" width="1366"/>
+                <img src="f5e6060645fce49901fccc01d424b2320278b8b22d24f3b693374092e2615281.png" title="LuisCa clicks on Boton de cerrar frame de reporte de dia" width="1366"/>
+                <img src="461649eb065985ccdf20599c8f0d929c2f5bb978e57d90522695865240bc4708.png" title="Then lbl fecha reporte dashboard should be an element that is visible" width="1366"/>
+                <img src="3bcfaa1c630f0614f1845905252e5a222320642961df653e427a7cd136fa7835.png" title="LuisCa clicks on lbl fecha reporte dashboard" width="1366"/>
+                <img src="851ded8b9f3d639007184a3b9d0efce247e8476a9d3d5158e57cb32864af5f85.png" title="Then Titulo de la pagina del reporte should be an element that is visible" width="1366"/>
+                <img src="851ded8b9f3d639007184a3b9d0efce247e8476a9d3d5158e57cb32864af5f85.png" title="Then targeted ui state question" width="1366"/>
+                <img src="851ded8b9f3d639007184a3b9d0efce247e8476a9d3d5158e57cb32864af5f85.png" title="Then Boton para cerrar un nuevo reporte should be an element that is visible" width="1366"/>
+                <img src="3532e7d5a405602e6e60a985f28774899c7f39a796e0d064a1904d098797750d.png" title="LuisCa clicks on Boton para cerrar un nuevo reporte" width="1366"/>
+                <img src="7007ed58b5ca6ad579f144220569bcffece2260eacc8c521612eb8f613c2f437.png" title="Then Boton de cerrar frame de reporte de dia should be an element that is visible" width="1366"/>
+                <img src="851ded8b9f3d639007184a3b9d0efce247e8476a9d3d5158e57cb32864af5f85.png" title="LuisCa clicks on Boton de cerrar frame de reporte de dia" width="1366"/>
+                <img src="edd4b8ef06bfb724c64280628cff20614b7023ed16b793bb3fdce3f00d5cc3b6.png" title="Then lbl fecha reporte dashboard should be an element that is visible" width="1366"/>
+                <img src="53d944d7c451c1960a25202f0478f3849c78fafe66e854b75087c16f62eb9eac.png" title="LuisCa clicks on lbl fecha reporte dashboard" width="1366"/>
+                <img src="c4cde3dd85b463b01f67cecbfa934e3b2b2560229caaddf35ff12737fbc12dad.png" title="Then Titulo de la pagina del reporte should be an element that is visible" width="1366"/>
+                <img src="c4cde3dd85b463b01f67cecbfa934e3b2b2560229caaddf35ff12737fbc12dad.png" title="Then targeted ui state question" width="1366"/>
+                <img src="c4cde3dd85b463b01f67cecbfa934e3b2b2560229caaddf35ff12737fbc12dad.png" title="Then Boton para cerrar un nuevo reporte should be an element that is visible" width="1366"/>
+                <img src="c4cde3dd85b463b01f67cecbfa934e3b2b2560229caaddf35ff12737fbc12dad.png" title="LuisCa clicks on Boton para cerrar un nuevo reporte" width="1366"/>
+                <img src="d18baca2ee12bcc964f540921cd5e440a918d3e730d4d12515754fc6ad25fdac.png" title="Then Boton de cerrar frame de reporte de dia should be an element that is visible" width="1366"/>
+                <img src="c4cde3dd85b463b01f67cecbfa934e3b2b2560229caaddf35ff12737fbc12dad.png" title="LuisCa clicks on Boton de cerrar frame de reporte de dia" width="1366"/>
+                <img src="6f294df64b5c7fbcd114ac5a9876402c6be2c997519b6a803b6740677aa659f1.png" title="Then lbl fecha reporte dashboard should be an element that is visible" width="1366"/>
+                <img src="230121846f2c6db8cd19834d8772f326b3d2edf154756ee59387b0490be37bf6.png" title="LuisCa clicks on lbl fecha reporte dashboard" width="1366"/>
+                <img src="ebd4c3030904aca9016caaf5cde761c799e6569b820b1becd2fabd4724a05824.png" title="Then Titulo de la pagina del reporte should be an element that is visible" width="1366"/>
+                <img src="ebd4c3030904aca9016caaf5cde761c799e6569b820b1becd2fabd4724a05824.png" title="Then targeted ui state question" width="1366"/>
+                <img src="ebd4c3030904aca9016caaf5cde761c799e6569b820b1becd2fabd4724a05824.png" title="Then Boton para crear un nuevo reporte should be an element that is visible" width="1366"/>
+                <img src="c9f2c1d615d715cb72f1f5a6b624c3ea557ded6faa1c484bf43e5896985eeefe.png" title="LuisCa clicks on Boton para crear un nuevo reporte" width="1366"/>
+                <img src="cd7da102b55f5bd6d7788c6e7e639dd9c1d01f4c098b4e3448bfcbc2e785dd97.png" title="Then Boton para buscar en el frame should be an element that is visible" width="1366"/>
+                <img src="abed7e63b11ea4d286979e9e60b6dbbfbc39cf65f3744b8f28b21e40f6bdc15f.png" title="LuisCa clicks on Boton para buscar en el frame" width="1366"/>
+                <img src="dbd4a5cc3993f8b7543ce819b7110088735b4bb941d0c6ecf0b01ac4ac4ce84b.png" title="Then Input text para buscar frame should be an element that is visible" width="1366"/>
+                <img src="9d1671f27b52bdb3be17b998a6bf9fe939169b39c289d2ccf7145e10f7d7720b.png" title="LuisCa enters 'GBCO24' into Input text para buscar frame" width="1366"/>
+                <img src="e55fdc661de9dfdfd8684bc9e8e575efca555156b6330590564043f95f32106d.png" title="LuisCa clicks on Boton para buscar frame" width="1366"/>
+                <img src="e55fdc661de9dfdfd8684bc9e8e575efca555156b6330590564043f95f32106d.png" title="Then Grid proyectos lbl proyectos should be an element that is visible" width="1366"/>
+                <img src="cd7da102b55f5bd6d7788c6e7e639dd9c1d01f4c098b4e3448bfcbc2e785dd97.png" title="LuisCa clicks on Grid proyectos lbl proyectos" width="1366"/>
+                <img src="cd7da102b55f5bd6d7788c6e7e639dd9c1d01f4c098b4e3448bfcbc2e785dd97.png" title="Then icono Lista de tipo de hora should be an element that is visible" width="1366"/>
+                <img src="3a0c1a43336e8d9b55c7d1f98f4600e87817485ab53a2a66b0869cb2a91f8817.png" title="LuisCa clicks on icono Lista de tipo de hora" width="1366"/>
+                <img src="3a0c1a43336e8d9b55c7d1f98f4600e87817485ab53a2a66b0869cb2a91f8817.png" title="Then Lista de tipo de hora should be an element that is visible" width="1366"/>
+                <img src="9dbf3f963072c67c132ba9da40471cc3ade19395f22882240d9dbda0b9dbdecf.png" title="LuisCa clicks on Lista de tipo de hora" width="1366"/>
+                <img src="2dbf9fec9d63a79df90ed57c5983b9e6c89ab72a495c9ed055cdaec19424d31c.png" title="Then icono Lista de servicio should be an element that is visible" width="1366"/>
+                <img src="e8c32f6baf980f13d2c0f2f97cdb7ae9e9642c97362386ee849cac046c2edd20.png" title="LuisCa clicks on icono Lista de servicio" width="1366"/>
+                <img src="8c6409ad9f4c8f01f9a7bcb3a26476c7fe8f62b40657adcc2fee4e0f2cdeea62.png" title="Then Input text para buscar frame should be an element that is visible" width="1366"/>
+                <img src="989d65451ca6ceee1dc9992899f281389e9c0f304df1131660716752722316a5.png" title="LuisCa enters 'P. generales CA CVDS &aacute;giles' into Input text para buscar frame" width="1366"/>
+                <img src="c8b8cedd550f51044464e2f919e4fd12e821f6a4a8addb7bbbf75dc886ff7966.png" title="LuisCa clicks on Boton para buscar frame" width="1366"/>
+                <img src="c8b8cedd550f51044464e2f919e4fd12e821f6a4a8addb7bbbf75dc886ff7966.png" title="Then Grid proyectos lbl servicios should be an element that is visible" width="1366"/>
+                <img src="2dbf9fec9d63a79df90ed57c5983b9e6c89ab72a495c9ed055cdaec19424d31c.png" title="LuisCa clicks on Grid proyectos lbl servicios" width="1366"/>
+                <img src="780ca19b177909093ddc46391a6434bdb12e72c25a9a3bcf8ccb9b134eae4440.png" title="Then icono Lista de actividades should be an element that is visible" width="1366"/>
+                <img src="19e12c1d19e589d000938ff9a0564860b5d702d6ca51f280cbb81f1e52feb768.png" title="LuisCa clicks on icono Lista de actividades" width="1366"/>
+                <img src="19e12c1d19e589d000938ff9a0564860b5d702d6ca51f280cbb81f1e52feb768.png" title="Then Lista de actividades should be an element that is visible" width="1366"/>
+                <img src="f6709885d734aa31ed3e7259c81184f39ccbc573c99694a65803fe134e83d85b.png" title="LuisCa clicks on Lista de actividades" width="1366"/>
+                <img src="f6709885d734aa31ed3e7259c81184f39ccbc573c99694a65803fe134e83d85b.png" title="Then Input text horas ejecutadas should be an element that is visible" width="1366"/>
+                <img src="911f1a5f2e74fa626303b3a00130c4c839a123ed5654a73e20161192b1cce7ff.png" title="LuisCa enters '8' into Input text horas ejecutadas" width="1366"/>
+                <img src="7d725913cc3c01eafeb08fdd538cff58bee63770a91c2bee9658877921145540.png" title="LuisCa enters 'Reto de maxtime, implementacion de proyecto usando builder' into Input text comentario" width="1366"/>
+                <img src="a8257421d032187dd8181950feac220a09c0ccc4aae688865cf11ba473dae74a.png" title="LuisCa clicks on Input text comentario" width="1366"/>
+                <img src="f296b63db5d082a8e4740ab63a6493889cdb6b760cfff4ed55eabbf823fe9f49.png" title="Then Boton para cerrar un nuevo reporte should be an element that is visible" width="1366"/>
+                <img src="b086813db017b871700380768dcd7b3b2dbcd7ebb522c587d9fb5a35cfd672b5.png" title="LuisCa clicks on Boton para cerrar un nuevo reporte" width="1366"/>
+                <img src="866e1f721f3637bd3f760bea2520e9791ace4819156b08404a9d88851ac81c55.png" title="Then Boton de cerrar frame de reporte de dia should be an element that is visible" width="1366"/>
+                <img src="f296b63db5d082a8e4740ab63a6493889cdb6b760cfff4ed55eabbf823fe9f49.png" title="LuisCa clicks on Boton de cerrar frame de reporte de dia" width="1366"/>
+                <img src="7f0d04f1de4e5c1f85938c614494d11f173b455dcd31f7156a38d723027f6c03.png" title="Entonces la solicitud debe de quedar guardada correctamente" width="1366"/>
+                <img src="7f0d04f1de4e5c1f85938c614494d11f173b455dcd31f7156a38d723027f6c03.png" title="Then verificar fecha" width="1366"/>
+                <img src="7f0d04f1de4e5c1f85938c614494d11f173b455dcd31f7156a38d723027f6c03.png" title="Then lbl fecha reporte dashboard should be an element that is visible: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

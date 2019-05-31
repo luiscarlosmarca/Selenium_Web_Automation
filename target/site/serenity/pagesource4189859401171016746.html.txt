@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="/MaxtimeChc/DXR.axd?r=1_8,0_3038,0_2905,1_4,0_2907,0_3036,1_7-cfxD7" /><link rel="stylesheet" type="text/css" href="/MaxtimeChc/DXR.axd?r=0_3051,0_3052,0_3053,0_3054-cfxD7" /><title>
+	Esta acción cerrará el día seleccionado - Mensaje
+</title><meta http-equiv="Expires" content="0" /><base target="_self" /><script type="text/javascript" src="MaxTime.js"> </script></head>
+
+<body class="VerticalTemplate" onload="OnLoad()" onbeforeunload="ConfirmClose()" onunload="HandleOnClose()">
+    <form method="post" action="./Dialog.aspx?ActionID=30829159" id="form2">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMyMjc4ODU5MmQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFIURpYWxvZyRhY3Rpb25Db250YWluZXJIb2xkZXIkTWVudWbS2t1tPCheP33rtR7arU/fvVxMhtbnN0Gr7JtUcLwo" />
+</div>
+
+<script type="text/javascript">
+//&lt;![CDATA[
+var theForm = document.forms['form2'];
+if (!theForm) {
+    theForm = document.form2;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]&gt;
+</script>
+
+
+<script src="/MaxtimeChc/WebResource.axd?d=wfa3N5baUBgFbuu9p_I-N56vP67AC1ZNpCf2AIIJI1jnLERwF7-_vtWIi3d_7nWxChm-PpN-MRkVQoHV3CP38uJkdIlgqCip-wVLfw2uTDs1&amp;t=636776545224055265" type="text/javascript"></script>
+
+
+<script src="/MaxtimeChc/WebResource.axd?d=UUpgLPDLaOm7rhRSuCuvnutKru6UeyT4Hf32RZVzX3myhBmZUHvlppfkY_jOJmbjHCT_yUQAGkFpqdHm8X6Q9SkquQFG1mYzcZGfLo_gmYjM9HA4xJlucgQCI3vv7NDjHde40hc8nLiHVCYRbkeXeYO23sE5RDxzpJqh--0I-yBZx8-sRtz4n7heSqK2crlC0&amp;t=635180373460000000" type="text/javascript"></script>
+<script src="/MaxtimeChc/WebResource.axd?d=iTu51oBKma28r3P2qL7sV0WOmkJ4c4PxnjGz1vxEdaRQivD8lydkEsCbRQ9b7cmnlnUrMo79IZbmPA_NrFRofUchqHId3wSnGV-O_3TZ9EqX2ymsbB1GIqAWikWW2nAQEos3nQ_5bMXn2q3QWNpcOaFe1GURUYYz_C8U-KY0kuU6k2CYuK5GIsWzwYeIVu0e0&amp;t=635180373460000000" type="text/javascript"></script>
+<script src="/MaxtimeChc/WebResource.axd?d=8KPn1IXVumDNesyfE0qTGK8qE-EG3I4Kz3Ta1UTkhVZe3ZunHKxVrU2JylpM3QEFbmtvbssgxTEcPE5n8F3V4lLeQQxMTS1U1C4JGcLS6Z43XIEe0VgntFomUcFMrEwX5LDrvN8H1pFhAnf6VelEEzIEOhw4-Cc0IZYbw9o2bbUnZVeflZGxapsWKbFgWUSU0&amp;t=635180373460000000" type="text/javascript"></script>
+<script type="text/javascript">
+//&lt;![CDATA[
+
+						window.setInterval('SessionKeepAliveReconnect()',300000);
+					//]]&gt;
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F9C701FE" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAaJU9k0r/OA/BJCb8thWduuHpYRCxYwBbWxHbg/8BFGtRTWnxfztpvTEF+Tb+yWPbNC7cIiAN8L10UoDZeNcwaC0B+/j/dlra0Wtqs4nLjZdBEGXweTvGH3J89ehkht4SZE39Cgp1cVXQJaYBG9ND3cKX73eEnPD0YmcXra3zYyrg==" />
+</div>
+    <div id="UPPopupWindowControl">
+	
+        <div id="PopupControlsContainer">
+
+	</div><script id="dxis_240883018" src="/MaxtimeChc/DXR.axd?r=1_145,1_81,1_137,1_80,1_120,1_99,1_106,1_130,1_135,1_121,1_79,1_127-afxD7" type="text/javascript"></script><div id="PopupWindowCallbackPanel" style="display:none;">
+		 
+	</div><table id="PopupWindowCallbackPanel_LP" class="dxcpLoadingPanelWithContent_Office2010Blue" cellspacing="0" cellpadding="0" style="border-collapse:collapse;left:0px;top:0px;z-index:30000;display:none;">
+		<tbody><tr>
+			<td class="dx" style="padding-right:5px;"><img src="/MaxtimeChc/DXR.axd?r=0_3012-cfxD7" alt="" align="middle" /></td><td class="dx" style="padding-left:0px;"><span id="PopupWindowCallbackPanel_TL">Cargando…</span></td>
+		</tr>
+	</tbody></table><div id="PopupWindowCallbackPanel_LD" class="dxcpLoadingDiv_Office2010Blue" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+	</div><script id="dxss_1825120611" type="text/javascript">
+&lt;!--
+
+var dxo = new ASPxClientCallbackPanel('PopupWindowCallbackPanel');
+window['PopupWindowCallbackPanel'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('PopupWindowCallbackPanel',arg,aspxCallback,'PopupWindowCallbackPanel',aspxCallbackError,true); };
+dxo.clientVisible = false;dxo.EndCallback.AddHandler(function(s, e) {
+                var content = PopupWindowCallbackPanel.GetMainElement();
+                var popupControlsContainer = document.getElementById('PopupControlsContainer');
+                if (content &amp;&amp; popupControlsContainer != null){
+                    while (content.childNodes.length != 0){
+                        popupControlsContainer.appendChild(content.childNodes[0]);
+                    }
+                }
+                var popupControl = window[s.cpPopupControlID];
+                if (popupControl != null){
+                    popupControl.Show();
+                }
+            });
+dxo.hideContentOnCallback=false;
+dxo.InlineInitialize();
+
+//--&gt;
+</script>
+    
+</div>
+    <span id="ProgressControl"><table class="dxlpLoadingPanel_Office2010Blue" cellspacing="0" cellpadding="0" ondblclick="stopProgress()" id="ProgressControl_ctl00" style="border-collapse:collapse;position:absolute;left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:5px;"><img src="/MaxtimeChc/DXR.axd?r=0_3012-cfxD7" alt="" align="middle" /></td><td class="dx" style="padding-left:0px;"><span id="ProgressControl_ctl00_TL">Cargando…</span></td>
+	</tr>
+</tbody></table><div id="ProgressControl_ctl00_LD" class="dxlpLoadingDiv_Office2010Blue" style="background-color:White;opacity:0;left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_1836983627" type="text/javascript">
+&lt;!--
+
+var dxo = new ASPxClientLoadingPanel('ProgressControl_ctl00');
+window['xafProgressControl'] = dxo;
+dxo.uniqueID = 'ProgressControl$ctl00';
+dxo.cpUseOnBlurInStartProgress=true;
+dxo.InlineInitialize();
+
+//--&gt;
+</script></span>
+    <div id="Content">
+<div class="Dialog">
+    <div id="Dialog_UPVH">
+	
+        <div style="display: none">
+            
+            <span id="Dialog_viewCaptionControl_VSL">Mensaje</span>
+        </div>
+    
+</div>
+    <table class="DialogContent Content" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody><tr>
+            <td class="ContentCell">
+                <div id="Dialog_UPEI">
+	
+                    <table id="Dialog_ErrorInfo" class="ErrorMessage" style="margin:10px 0px 10px 0px;display:none;">
+
+	</table>
+                
+</div>
+                <table id="Dialog_Table1" cellspacing="0" cellpadding="0" style="border-width:0px;width:100%;border-collapse:collapse;">
+	<tbody><tr id="Dialog_TableRow5">
+		<td id="Dialog_TableCell1" align="center"><div id="Dialog_UPSAC">
+			
+                                <div id="Dialog_SearchActionContainer" class="HContainer" style="white-space:nowrap;display:none;">
+
+			</div>
+                            
+		</div></td>
+	</tr><tr id="Dialog_TableRow2">
+		<td id="Dialog_ViewSite"><div id="Dialog_UPVSC">
+			
+                                <div id="Dialog_v10_VSP" style="width:100%;">
+				<div id="Dialog_v10_MainLayoutEdit" class="Layout LayoutEditMode">
+					<div class="Item">
+						<table id="Dialog_v10_MainLayoutEdit_xaf_l110_xaf_l110_ctbl" class="Item" cellspacing="0" cellpadding="1" style="border-width:0px;width:100%;border-collapse:collapse;">
+							<tbody><tr>
+								<td class="Caption  " style="width:61px;">Atención:</td><td><table cellspacing="0" cellpadding="0" style="border-width:0px;width:100%;border-collapse:collapse;">
+									<tbody><tr>
+										<td class="WebEditorCell" align="left" style="width:100%;"><table class="dxeTextBoxSys dxeTextBox_Office2010Blue dxeReadOnly_Office2010Blue" cellspacing="0" cellpadding="0" id="Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit" style="width:100%;border-collapse:collapse;">
+											<tbody><tr>
+												<td class="dxic" style="width:100%;"><input class="dxeEditArea_Office2010Blue dxeEditAreaSys" name="Dialog$v10$MainLayoutEdit$xaf_l110$xaf_dviNombre_Edit" onkeyup="aspxEKeyUp('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit', event)" value="Esta acción cerrará el día seleccionado" maxlength="100" id="Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit_I" onblur="aspxELostFocus('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit')" onfocus="aspxEGotFocus('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit')" type="text" onkeydown="aspxEKeyDown('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit', event)" readonly="readonly" /></td>
+											</tr>
+										</tbody></table><script id="dxss_121972762" type="text/javascript">
+&lt;!--
+aspxAddDisabledItems('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit',[[['dxeDisabled_Office2010Blue'],[''],['','I']]]);
+
+var dxo = new ASPxClientTextBox('Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit');
+window['Dialog_v10_MainLayoutEdit_xaf_l110_xaf_dviNombre_Edit'] = dxo;
+dxo.uniqueID = 'Dialog$v10$MainLayoutEdit$xaf_l110$xaf_dviNombre_Edit';
+dxo.clientEnabled = false;
+dxo.initialFocused = true;
+dxo.readOnly=true;
+dxo.RequireStyleDecoration();
+dxo.styleDecoration.AddStyle('F','dxeFocused_Office2010Blue','');
+dxo.InlineInitialize();
+
+//--&gt;
+</script></td>
+									</tr>
+								</tbody></table></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div>
+			</div>
+                            
+		</div></td>
+	</tr>
+</tbody></table>
+            </td>
+        </tr>
+        <tr id="Dialog_TableRow3">
+	<td id="Dialog_TableCell4" align="right" style="padding-bottom: 10px"><div id="Dialog_UPACH">
+		
+                    <div id="Dialog_actionContainerHolder" class="ACH" style="white-space:nowrap;display:;">
+			<div class="dxmLite_Office2010Blue dxm-ltr">
+				<div class="dxm-main dxm-horizontal menuButtons_Office2010Blue dxmtb" id="Dialog_actionContainerHolder_Menu" style="border-width:0px;width:100%;text-align:Right;">
+					<ul class="dx dxm-image-l dxm-noImages dxm-gutter" style="float:right;">
+						<li title="Aceptar" class="dxm-item"><div class="dxm-content dxm-hasText">
+							<a title="Aceptar" class="dx dxalink" href="javascript:;">Cerrar Día</a>
+						</div></li><li class="dxm-separator" style="margin-left:0px;margin-right:0px;"><b style="background-color:Transparent;"></b></li><li title="Cancelar" class="dxm-item"><div class="dxm-content dxm-hasText">
+							<a title="Cancelar" class="dx dxalink" href="javascript:;">Cancelar</a>
+						</div></li>
+					</ul>
+				</div><b class="dx-clear"></b>
+			</div><script id="dxss_1808059736" type="text/javascript">
+&lt;!--
+aspxAddHoverItems('Dialog_actionContainerHolder_Menu',[[['dxm-hovered',''],['',''],['DXI0_','DXI1_'],['','T'],[[''],['']],['Img','PImg']]]);
+aspxAddDisabledItems('Dialog_actionContainerHolder_Menu',[[['dxm-disabled'],[''],['DXI0_','DXI1_'],['','T'],[[''],['']],['Img','PImg']]]);
+
+var dxo = new ASPxClientMenu('Dialog_actionContainerHolder_Menu');
+window['Dialog_actionContainerHolder_Menu'] = dxo;
+dxo.uniqueID = 'Dialog$actionContainerHolder$Menu';
+dxo.ItemClick.AddHandler(function(s,e) {
+                var indexPath = ''+ e.item.indexPath + '';
+                var clickHandlerScript = s.cpClickHandlers[indexPath];
+                if(clickHandlerScript) {
+                    xafWaitForCallback(clickHandlerScript)
+                }
+;});
+dxo.cpClickHandlers=({'0':'RaiseXafCallback(globalCallbackControl, \'Dialog$actionContainerHolder\', \'0\', \'\', false);','1':'RaiseXafCallback(globalCallbackControl, \'Dialog$actionContainerHolder\', \'1\', \'\', false);'});
+dxo.liteRender=true;
+dxo.liteRenderData={'':[[0],[1]]};
+dxo.rootSubMenuFIXOffset=-1;
+dxo.rootSubMenuLIXOffset=-1;
+dxo.rootSubMenuXOffset=-1;
+dxo.shadowVisible=false;
+dxo.CreateItems([['DialogOK',,,,,[]],['DialogCancel',,,,,[]]]);
+dxo.InlineInitialize();
+
+//--&gt;
+</script>
+		</div>
+                
+	</div></td>
+</tr>
+    </tbody></table>
+</div>
+</div>
+    <span id="Sc"><div id="Sc_UPSPH">
+	<input type="hidden" name="Sc$xPos" id="Sc_xPos" value="0" /><input type="hidden" name="Sc$yPos" id="Sc_yPos" value="0" />
+</div></span><script id="dxss_56071891" type="text/javascript">
+&lt;!--
+
+var dxo = new ASPxClientCallback('NotifyWindowCloseControl');
+window['NotifyWindowCloseControl'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('NotifyWindowCloseControl',arg,aspxCallback,'NotifyWindowCloseControl',aspxCallbackError,true); };
+dxo.cpServerWindowID='7482981';
+dxo.InlineInitialize();
+
+//--&gt;
+</script><div id="StartupNavigationItemCallbackHandler" style="display:none;">
+	 
+</div><script id="dxss_2132290442" type="text/javascript">
+&lt;!--
+
+var dxo = new ASPxClientPanel('StartupNavigationItemCallbackHandler');
+window['StartupNavigationItemCallbackHandler'] = dxo;
+dxo.clientVisible = false;dxo.InlineInitialize();
+
+//--&gt;
+</script><script id="dxss_419133443" type="text/javascript">
+&lt;!--
+
+var dxo = new ASPxClientCallback('GlobalCallbackControl');
+window['globalCallbackControl'] = dxo;
+dxo.callBack = function(arg) { WebForm_DoCallback('GlobalCallbackControl',arg,aspxCallback,'GlobalCallbackControl',aspxCallbackError,true); };
+dxo.CallbackComplete.AddHandler(function(s, e) { ProcessCallbackResult(s); });
+dxo.InlineInitialize();
+
+//--&gt;
+</script><div id="ScriptContainer">
+
+</div>
+
+<script type="text/javascript">
+//&lt;![CDATA[
+ 
+                    var activePopupControl = GetActivePopupControl(window.parent);
+                    if (activePopupControl != null){
+                        var viewImageControl = document.getElementById('Dialog_viewImageControl_IC');
+                        if (viewImageControl &amp;&amp; viewImageControl.src != ''){
+                            activePopupControl.SetHeaderImageUrl(viewImageControl.src);
+                        }
+                        var viewCaptionControl = document.getElementById('Dialog_viewCaptionControl_VSL');
+                        if (viewCaptionControl){
+                            var headerText = viewCaptionControl.innerText;
+                            if(__aspxFirefox &amp;&amp; viewCaptionControl.textContent) {
+                                headerText = viewCaptionControl.textContent;
+                            }
+                            activePopupControl.SetHeaderText(headerText);
+                        }
+                    }scrollControlOnLoadCore('Sc_xPos', 'Sc_yPos', '');
+WebForm_InitCallback();
+					for(var i=0; i&lt;document.forms.length;i++) {
+						document.forms[i].old_onsubmit = document.forms[i].onsubmit;
+						document.forms[i].onsubmit = function() { if(runProgressWithDelay()) { if(this.old_onsubmit) this.old_onsubmit(); return true;} else {return false;}};
+					}
+					window.old_onunload = window.onunload;
+					window.onunload = function (e) {
+						stopProgress();
+						if(window.old_onunload) {
+							window.old_onunload();
+						}
+					};
+					//]]&gt;
+</script>
+</form>
+
+
+</body></html>
