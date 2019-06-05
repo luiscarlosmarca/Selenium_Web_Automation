@@ -27,18 +27,12 @@ public class ModificarDiasReportados implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor) {
-        //Todo new taxk abrir dia cerrado
-        actor.attemptsTo(Esperar.carga(5));
-        actor.attemptsTo((WaitUntil.the(BTN_ABRIR_DIAS_CERRADOS, isVisible()).forNoMoreThan(10).seconds()),
-                Click.on(BTN_ABRIR_DIAS_CERRADOS));
-        actor.attemptsTo(Esperar.carga(10));
+
         verificaCarga(actor);
         modificarDiarepotado(actor);
     }
     private void verificaCarga(Actor actor) {
-        actor.attemptsTo((WaitUntil.the(TITULO_PAGINA_REPORTE_DIAS_CERRADOS,isVisible()).forNoMoreThan(30).seconds()));
-        actor.should(seeThat(Visibility.of(TITULO_PAGINA_REPORTE_DIAS_CERRADOS).viewedBy(actor).asAQuestion()).orComplainWith(NoCargaLaPantallaDiasCerradosException.class,
-                NoCargaLaPantallaDiasCerradosException.MESSAGE_EXCEPTION_CARGAR_PANTALLA_DIAS_CERRADOS));
+       //Todo reporte de dias
     }
     private  void modificarDiarepotado(Actor actor){
         actor.attemptsTo(Esperar.unMomento(3),(WaitUntil.the(TXT_BUSCAR_DIAS, isVisible()).forNoMoreThan(10).seconds()),
