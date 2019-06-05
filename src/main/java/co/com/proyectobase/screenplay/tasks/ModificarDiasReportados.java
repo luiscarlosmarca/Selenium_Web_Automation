@@ -27,10 +27,12 @@ public class ModificarDiasReportados implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor) {
+        //Todo new taxk abrir dia cerrado
+        actor.attemptsTo(Esperar.carga(5));
         actor.attemptsTo((WaitUntil.the(BTN_ABRIR_DIAS_CERRADOS, isVisible()).forNoMoreThan(10).seconds()),
                 Click.on(BTN_ABRIR_DIAS_CERRADOS));
+        actor.attemptsTo(Esperar.carga(10));
         verificaCarga(actor);
-        actor.attemptsTo();
         modificarDiarepotado(actor);
     }
     private void verificaCarga(Actor actor) {
@@ -72,13 +74,19 @@ public class ModificarDiasReportados implements Task {
                 Click.on(LBL_TABLE_FRAME_SERVICIOS.of(infoLaboral.getServicio())));
 
         actor.attemptsTo(WaitUntil.the(ICON_CMB_ACTIVIDAD,isVisible()).forNoMoreThan(60).seconds(),
-                Click.on(ICON_CMB_ACTIVIDAD),(WaitUntil.the(CMB_ACTIVIDAD.of(infoLaboral.getActividad()),isVisible()).forNoMoreThan(60).seconds()),
-                Click.on(CMB_ACTIVIDAD.of(infoLaboral.getActividad())));
+                Click.on(ICON_CMB_ACTIVIDAD));
+        actor.attemptsTo(Esperar.unMomento(3),(WaitUntil.the(TXT_BUSCAR_FRAME_ACTIVIDAD,isVisible()).forNoMoreThan(60).seconds()),
+                Enter.theValue(infoLaboral.getActividad()).into(TXT_BUSCAR_FRAME_ACTIVIDAD),
+                Click.on(BTN_BUSCAR_FRAME_ACTIVIDAD),
+                (WaitUntil.the(LBL_TABLE_FRAME_ACTIVIDADES.of(infoLaboral.getActividad()),isVisible()).forNoMoreThan(60).seconds()),
+                Click.on(LBL_TABLE_FRAME_ACTIVIDADES.of(infoLaboral.getActividad())));
 
         actor.attemptsTo(WaitUntil.the(TXT_HORAS_EJECUTADAS,isVisible()).forNoMoreThan(60).seconds(),
                 Enter.theValue(infoLaboral.getHoraEjecutada()).into(TXT_HORAS_EJECUTADAS),
                 Enter.theValue(infoLaboral.getComentario()).into(TXT_COMENTARIO),
                 Click.on(BTN_GUARDAR_Y_CERRAR));
+
+
 
     }
 

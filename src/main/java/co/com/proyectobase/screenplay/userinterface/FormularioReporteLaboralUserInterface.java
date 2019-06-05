@@ -23,6 +23,8 @@ public class FormularioReporteLaboralUserInterface {
 
 
     public static final IFrame IFRAME= IFrame.withPath(By.xpath("//iframe"));
+    public static final IFrame IFRAME_ACTIVIDAD= IFrame.withPath(By.xpath("//iframe[contains(@src,'Dia')]"));
+
 
     public static final Target TXT_BUSCAR_FRAME = Target.the("Input text para buscar frame").inIFrame(IFRAME)
                 .locatedBy("//input[contains(@name,'SearchActionContainer')][@type='text']");
@@ -30,9 +32,17 @@ public class FormularioReporteLaboralUserInterface {
     public static final Target BTN_BUSCAR_FRAME = Target.the("Boton para buscar frame").inIFrame(IFRAME)
             .locatedBy("//span[contains(text(),'Search')]");
 
+    public static final Target TXT_BUSCAR_FRAME_ACTIVIDAD = Target.the("Input text para buscar frame de actividades para modificacion").inIFrame(IFRAME_ACTIVIDAD)
+            .locatedBy("//input[contains(@name,'SearchActionContainer')][@type='text']");
+
+    public static final Target BTN_BUSCAR_FRAME_ACTIVIDAD = Target.the("Boton para buscar frame de actividades para modificacion").inIFrame(IFRAME_ACTIVIDAD)
+            .locatedBy("//span[contains(text(),'Search')]");
+
     public static final Target LBL_TABLE_FRAME_PROYECTOS = Target.the("Grid proyectos lbl proyectos").inIFrame(IFRAME)
             .locatedBy("//span[contains(@id,'CodigoCliente_View')][contains(text(), '{0}')]");
 
+    public static final Target LBL_TABLE_FRAME_ACTIVIDADES = Target.the("Grid proyectos lbl proyectos").inIFrame(IFRAME_ACTIVIDAD)
+            .locatedBy("//span[contains(@id,'Nombre_View')][contains(text(), '{0}')]");// Solo para el caso de modificacion.
 
 
     public static final Target LBL_TABLE_FRAME_SERVICIOS = Target.the("Grid proyectos lbl servicios").inIFrame(IFRAME)

@@ -1,7 +1,7 @@
 package co.com.proyectobase.screenplay.stepdefinitions;
 import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDelDashboard;
 import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDiasCerradosException;
-import co.com.proyectobase.screenplay.tasks.ModificarDiasReportados;
+import co.com.proyectobase.screenplay.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.ast.Cuando;
 import cucumber.api.java.es.Dado;
@@ -12,9 +12,7 @@ import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
-import co.com.proyectobase.screenplay.tasks.AbrirElNavegador;
-import co.com.proyectobase.screenplay.tasks.IniciarSesion;
-import co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado;
+
 import co.com.proyectobase.screenplay.model.DatosParaIngresar;
 import co.com.proyectobase.screenplay.questions.VerificarFecha;
 
@@ -68,6 +66,7 @@ public class MaxtimeStepDefinition {
             DatosParaIngresar datos = dataTable.get(i);
             LUISCA.attemptsTo(ModificarDiasReportados.con(infoLaboralPorDefecto().conProyecto(datos.getProyecto()).
                     conActividad(datos.getActividad()).conFecha(datos.getFecha())));
+            LUISCA.attemptsTo(CerrarDia.correctamente());
         }
     }
 

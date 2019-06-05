@@ -34,8 +34,6 @@ public class VerificarFecha implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        actor.attemptsTo((WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()));
-
         actor.attemptsTo(
                 (Check.whether(reportarDia).andIfSo(
                             (WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()))

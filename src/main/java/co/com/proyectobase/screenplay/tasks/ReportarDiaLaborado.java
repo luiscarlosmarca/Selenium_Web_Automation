@@ -13,6 +13,7 @@ import co.com.proyectobase.screenplay.model.InformacionLaboral;
 import co.com.proyectobase.screenplay.model.builder.InformacionLaboralBuilder;
 import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaReporteDiaException;
 import co.com.proyectobase.screenplay.interactions.Esperar;
+import co.com.proyectobase.screenplay.tasks.CerrarDia;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.TITULO_PAGINA_REPORTE_DIA;
@@ -48,18 +49,12 @@ public class ReportarDiaLaborado implements Task {
         if (infoLaboral.isDiaHabil()){
             reportarDiaHabil(actor);
         }else {
-            cerrarDia(actor);
+            CerrarDia.correctamente();
+            capturarValores(actor);
         }
 
     }
-    // TODO : CREATE TASK CERRAR DIA
-    private void cerrarDia(Actor actor) {
-        actor.attemptsTo(WaitUntil.the(BTN_CERRAR_REPORTE_DIA,isVisible()).forNoMoreThan(60).seconds(),
-                Click.on(BTN_CERRAR_REPORTE_DIA),
-                (WaitUntil.the(BTN_CERRAR_FRAME_REPORTE_DIA,isVisible()).forNoMoreThan(60).seconds()),
-                Click.on(BTN_CERRAR_FRAME_REPORTE_DIA));
-        capturarValores(actor);
-    }
+
 
     private void reportarDiaHabil(Actor actor) {
         actor.attemptsTo(WaitUntil.the(BTN_NUEVO_REPORTE_DIA,isVisible()).forNoMoreThan(60).seconds(),
@@ -90,7 +85,7 @@ public class ReportarDiaLaborado implements Task {
                 Click.on(LBL_TABLE_FRAME_SERVICIOS.of(infoLaboral.getServicio())));
 
         actor.attemptsTo(WaitUntil.the(ICON_CMB_ACTIVIDAD,isVisible()).forNoMoreThan(60).seconds(),
-                Click.on(ICON_CMB_ACTIVIDAD),(WaitUntil.the(CMB_ACTIVIDAD.of(infoLaboral.getActividad()),isVisible()).forNoMoreThan(60).seconds()),
+                Click.on(ICON_CMB_ACTIVIDAD),
                 Click.on(CMB_ACTIVIDAD.of(infoLaboral.getActividad())));
 
         actor.attemptsTo(WaitUntil.the(TXT_HORAS_EJECUTADAS,isVisible()).forNoMoreThan(60).seconds(),
@@ -98,8 +93,8 @@ public class ReportarDiaLaborado implements Task {
                 Enter.theValue(infoLaboral.getComentario()).into(TXT_COMENTARIO),
                 Click.on(BTN_GUARDAR_Y_CERRAR));
 
-
-        cerrarDia(actor);
+        CerrarDia.correctamente();
+        capturarValores(actor);
     }
 
     private void capturarValores(Actor actor) {
