@@ -14,7 +14,7 @@
   Escenario: Reportar actividades de trabajo de hoy
     Cuando diligencia los datos necesarios para reportar
       |fecha|proyecto |tipoHora |servicio |actividad|horaEjecutada | comentario|diaHabil|
-      |26/06/2019|GBCO24|H. Proyecto|P. generales CA CVDS ágiles|CAPACITACIÓN METODOLOGÍA DE PRUEBAS|8|Investigacion de automatizacion reto maxtime|true|
+      |28/06/2019|GBCO24|H. Proyecto|P. generales CA CVDS ágiles|CAPACITACIÓN METODOLOGÍA DE PRUEBAS|8|Investigacion de automatizacion reto maxtime|true|
 
     Entonces la solicitud debe de quedar guardada correctamente
 

@@ -8,7 +8,7 @@ public class FormularioReporteLaboralUserInterface {
     //dashboard
 
     public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
-            .locatedBy("  //h1/span[contains(text(),'{0}')]");
+            .locatedBy("//h1/span[contains(text(),'Detalle Reporte Dia')]");
 
     public static final Target BTN_BUSCAR_PROYECTOS = Target.the("Boton para buscar en el frame")
             .locatedBy("//img[contains(@id,'Proyecto_Edit_Find')]");
@@ -51,8 +51,8 @@ public class FormularioReporteLaboralUserInterface {
 
     public static final Target BTN_BUSCAR_SERVICIO = Target.the("icono Lista de servicio")
             .locatedBy("//div[contains(@id,'Servicio_Edit_Find')]");
-    public static final Target ICON_CMB_ACTIVIDAD = Target.the("icono Lista de actividades")
-            .locatedBy("//div[contains(@id,'Actividad_Edit_Find')]");
+    public static final Target ICON_CMB_ACTIVIDAD = Target.the("lista  de actividades")
+            .locatedBy("//input[contains(@name,'Actividad_Edit')][@type='text']");
 
 
     public static final Target CMB_ACTIVIDAD = Target.the("Lista de actividades")

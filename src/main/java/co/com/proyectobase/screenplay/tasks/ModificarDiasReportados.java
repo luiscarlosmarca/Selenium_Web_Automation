@@ -8,14 +8,9 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.questions.Visibility;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import co.com.proyectobase.screenplay.exceptions.NoCargaLaPantallaDiasCerradosException;
-import static co.com.proyectobase.screenplay.userinterface.DiasCerradosUserInterface.*;
-import static co.com.proyectobase.screenplay.userinterface.BotonesMenuVerticalUserInterface.*;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.*;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.BTN_GUARDAR_Y_CERRAR;
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class ModificarDiasReportados implements Task {

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="54.77" timestamp="2019-06-05 04:10:55"><testcase name="Reportar actividades de trabajo de hoy"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath:   //h1/span[contains(text(),'{0}')]" type="java.lang.AssertionError">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="87.55" timestamp="2019-06-05 04:43:28"><testcase name="Reportar actividades de trabajo de hoy"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]" type="java.lang.AssertionError">
 Expected: an element that is visible
-     but: no matching element found by xpath:   //h1/span[contains(text(),'{0}')]</failure><system-err>
+     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]</failure><system-err>
 Expected: an element that is visible
-     but: no matching element found by xpath:   //h1/span[contains(text(),'{0}')]&#13;
-co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.verificaCarga(ReportarDiaLaborado.java:101)&#13;
-co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.performAs(ReportarDiaLaborado.java:44)&#13;
-co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaReportar(MaxtimeStepDefinition.java:52)&#13;
+     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]&#13;
+co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.reportarDiaHabil(ReportarDiaLaborado.java:78)&#13;
+co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.performAs(ReportarDiaLaborado.java:41)&#13;
+co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaReportar(MaxtimeStepDefinition.java:53)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>

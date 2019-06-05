@@ -14,4 +14,10 @@ public class DashboardReporteTiempos {
 
     public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
             .locatedBy("//h1/span[contains(text(),'Reporte Dia')]");
+
+    public static final Target BTN_NUEVO_REPORTE = Target.the("Boton para crear un nuevo reporte de dia")
+            .locatedBy("//a[contains(@title,'Nuevo Detalle')]");
+
 }
+
+
