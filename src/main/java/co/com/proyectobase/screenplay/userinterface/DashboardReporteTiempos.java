@@ -11,4 +11,7 @@ public class DashboardReporteTiempos {
             .locatedBy("//*[contains(text(), '{0}')]");
     public static final Target TD_FECHA_DASHBOARD = Target.the("lbl fecha reporte dashboard")
             .locatedBy("#Vertical_v1_LE_v2_tccell0_0");
+
+    public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
+            .locatedBy("//h1/span[contains(text(),'Reporte Dia')]");
 }

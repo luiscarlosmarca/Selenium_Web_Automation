@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="88.25" timestamp="2019-06-05 02:32:36"><testcase name="Modificar reportes de dias anteriores"><failure message="No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException" type="java.lang.AssertionError">No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException</failure><system-err>No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException&#13;
-co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.laSolicitudDebeDeQuedarModificadaCorrectamente(MaxtimeStepDefinition.java:77)&#13;
-✽.la solicitud debe de quedar modificada correctamente(src/test/resources/features/maxtime.feature:30)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="120.86" timestamp="2019-06-05 03:34:43"><testcase name="Modificar reportes de dias anteriores"/></testsuite>

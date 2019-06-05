@@ -8,9 +8,9 @@ public class FormularioReporteLaboralUserInterface {
     //dashboard
 
     public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
-            .locatedBy("//h1/span[contains(text(),'Reporte Dia')]");
-    public static final Target TITULO_PAGINA_REPORTE_DIAS_CERRADOS= Target.the("Titulo de la pagina del reporte")
-            .locatedBy("//h1/span[contains(text(),'Abrir Dias Cerrados')]");
+            .locatedBy("  //h1/span[contains(text(),'{0}')]");
+
+
 
 
     public static final Target BTN_BUSCAR_PROYECTOS = Target.the("Boton para buscar en el frame")

@@ -40,11 +40,7 @@ public class ReportarDiaLaborado implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(WaitUntil.the(LBL_FECHA_DASHBOARD.of(infoLaboral.getFecha()), isVisible()).forNoMoreThan(10).seconds());
 
-        actor.attemptsTo(Click.on(TD_FECHA_DASHBOARD));
-        actor.attemptsTo(Check.whether(!CurrentVisibility.of(TITULO_PAGINA_REPORTE_DIA).viewedBy(actor).asBoolean()).andIfSo(
-                Click.on(TD_FECHA_DASHBOARD)));
         verificaCarga(actor);
         if (infoLaboral.isDiaHabil()){
             reportarDiaHabil(actor);

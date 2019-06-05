@@ -15,6 +15,8 @@ public class DiasCerradosUserInterface {
     public static final Target LBL_DIA_REPORTADO = Target.the("Boton para ver los dias reportados")
             .locatedBy("//td/span[contains(@id,'Comentario_View')]");
 
+    public static final Target TITULO_PAGINA_REPORTE_DIAS_CERRADOS= Target.the("Titulo de la pagina del reporte")
+            .locatedBy("//h1/span[contains(text(),'Abrir Dias Cerrados')]");
 
 }
 
