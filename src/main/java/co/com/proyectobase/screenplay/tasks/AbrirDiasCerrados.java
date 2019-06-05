@@ -6,12 +6,10 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.conditions.Check;
 import net.serenitybdd.screenplay.questions.Visibility;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-
 import static co.com.proyectobase.screenplay.userinterface.BotonesMenuVerticalUserInterface.BTN_ABRIR_DIAS_CERRADOS;
-import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.TITULO_PAGINA_REPORTE_DIAS_CERRADOS;
+import static co.com.proyectobase.screenplay.userinterface.DiasCerradosUserInterface.TITULO_PAGINA_REPORTE_DIAS_CERRADOS;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 

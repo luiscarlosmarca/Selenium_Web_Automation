@@ -10,9 +10,6 @@ public class FormularioReporteLaboralUserInterface {
     public static final Target TITULO_PAGINA_REPORTE_DIA = Target.the("Titulo de la pagina del reporte")
             .locatedBy("  //h1/span[contains(text(),'{0}')]");
 
-
-
-
     public static final Target BTN_BUSCAR_PROYECTOS = Target.the("Boton para buscar en el frame")
             .locatedBy("//img[contains(@id,'Proyecto_Edit_Find')]");
 

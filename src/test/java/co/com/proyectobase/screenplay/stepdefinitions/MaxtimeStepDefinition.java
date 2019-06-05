@@ -48,7 +48,7 @@ public class MaxtimeStepDefinition {
 
         for (int i = 0; i < dataTable.size(); i++) {
             DatosParaIngresar datos = dataTable.get(i);
-            LUISCA.attemptsTo(AbrirNuevoDia.paraReportar(infoLaboralPorDefecto()));
+            LUISCA.attemptsTo(AbrirNuevoDia.paraReportar(infoLaboralPorDefecto().conFecha(datos.getFecha())));
             LUISCA.attemptsTo(ReportarDiaLaborado.Ordinario(infoLaboralPorDefecto().conProyecto(datos.getProyecto()).
                     conActividad(datos.getActividad()).conFecha(datos.getFecha()).isDiaHabil(datos.getDiaHabil())));
         }
