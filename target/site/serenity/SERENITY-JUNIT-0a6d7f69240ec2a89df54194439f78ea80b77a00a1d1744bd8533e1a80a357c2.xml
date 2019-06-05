@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="23.19" timestamp="2019-06-05 10:57:47"><testcase name="Modificar reportes de dias anteriores"><failure message="&#10;Expected: an element that is not visible&#10;     but: the element identified by xpath:  //span[@id='ProgressControl']//span[contains(text(),'Cargando')] [Cargando…] was visible" type="java.lang.AssertionError">
-Expected: an element that is not visible
-     but: the element identified by xpath:  //span[@id='ProgressControl']//span[contains(text(),'Cargando')] [Cargando…] was visible</failure><system-err>
-Expected: an element that is not visible
-     but: the element identified by xpath:  //span[@id='ProgressControl']//span[contains(text(),'Cargando')] [Cargando…] was visible&#13;
-co.com.proyectobase.screenplay.interactions.Esperar.performAs(Esperar.java:32)&#13;
-co.com.proyectobase.screenplay.tasks.ModificarDiasReportados.performAs(ModificarDiasReportados.java:34)&#13;
-co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaModifica(MaxtimeStepDefinition.java:67)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="88.25" timestamp="2019-06-05 02:32:36"><testcase name="Modificar reportes de dias anteriores"><failure message="No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException" type="java.lang.AssertionError">No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException</failure><system-err>No se puede cargar la pantalla repote de dias cerrados - java.lang.NullPointerException&#13;
+co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.laSolicitudDebeDeQuedarModificadaCorrectamente(MaxtimeStepDefinition.java:77)&#13;
+✽.la solicitud debe de quedar modificada correctamente(src/test/resources/features/maxtime.feature:30)&#13;
 </system-err></testcase></testsuite>

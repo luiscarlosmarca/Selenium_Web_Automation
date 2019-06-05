@@ -16,7 +16,7 @@ import java.util.Calendar;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
-import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.*;
+import static co.com.proyectobase.screenplay.userinterface.DashboardReporteTiempos.*;
 import static co.com.proyectobase.screenplay.util.Constantes.DIA_REPORTADO;
 import java.util.Date;
 
@@ -34,14 +34,21 @@ public class VerificarFecha implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        actor.attemptsTo(
-                (Check.whether(reportarDia).andIfSo(
+        /*actor.attemptsTo(
+                (Check.whether(false).andIfSo(
                             (WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()))
                         .otherwise(
                                 (WaitUntil.the(target, isVisible()).forNoMoreThan(60).seconds())
                         )
                 )
-        );
+        );*/
+        if (reportarDia){
+            actor.attemptsTo((WaitUntil.the(target.of(ObtenerEldiaSiguiente(actor)), isVisible()).forNoMoreThan(60).seconds()));
+
+        }else{
+            actor.attemptsTo( (WaitUntil.the(target, isVisible()).forNoMoreThan(60).seconds()));
+
+        }
 
         Target verificarFecha=(reportarDia)?target.of(ObtenerEldiaSiguiente(actor)):target;
         return Visibility.of(verificarFecha).viewedBy(actor).asBoolean();
@@ -61,6 +68,6 @@ public class VerificarFecha implements Question<Boolean> {
         return new VerificarFecha(LBL_FECHA_DASHBOARD,true);
     }
     public static VerificarFecha correctamente() {
-        return new VerificarFecha(LBL_FECHA_DASHBOARD,false);
+        return new VerificarFecha(TITULO_PAGINA_DASHBOARD_REPORTE_TIEMPO,false);
     }
 }

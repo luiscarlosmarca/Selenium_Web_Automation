@@ -17,7 +17,7 @@ import co.com.proyectobase.screenplay.tasks.CerrarDia;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.TITULO_PAGINA_REPORTE_DIA;
-import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.LBL_FECHA_DASHBOARD;
+import static co.com.proyectobase.screenplay.userinterface.DashboardReporteTiempos.LBL_FECHA_DASHBOARD;
 import static co.com.proyectobase.screenplay.userinterface.BotonesMenuVerticalUserInterface.BTN_NUEVO_REPORTE_DIA;
 import static co.com.proyectobase.screenplay.userinterface.BotonesMenuVerticalUserInterface.BTN_CERRAR_REPORTE_DIA;
 import static co.com.proyectobase.screenplay.userinterface.FormularioReporteLaboralUserInterface.BTN_BUSCAR_PROYECTOS;
