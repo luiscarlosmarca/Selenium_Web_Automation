@@ -81,10 +81,9 @@ public class ReportarDiaLaborado implements Task {
 
         actor.attemptsTo(WaitUntil.the(TXT_HORAS_EJECUTADAS,isVisible()).forNoMoreThan(60).seconds(),
                 Enter.theValue(infoLaboral.getHoraEjecutada()).into(TXT_HORAS_EJECUTADAS),
-                Enter.theValue(infoLaboral.getComentario()).into(TXT_COMENTARIO),
-                Click.on(BTN_GUARDAR_Y_CERRAR));
+                Enter.theValue(infoLaboral.getComentario()).into(TXT_COMENTARIO));
+        actor.attemptsTo(Click.on(BTN_GUARDAR_Y_CERRAR));
 
-        CerrarDia.correctamente();
         capturarValores(actor);
     }
 

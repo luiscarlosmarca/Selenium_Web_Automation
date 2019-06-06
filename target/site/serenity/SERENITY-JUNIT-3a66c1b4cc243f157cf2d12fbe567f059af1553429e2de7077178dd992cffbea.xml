@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="87.55" timestamp="2019-06-05 04:43:28"><testcase name="Reportar actividades de trabajo de hoy"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]" type="java.lang.AssertionError">
-Expected: an element that is visible
-     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]</failure><system-err>
-Expected: an element that is visible
-     but: no matching element found by xpath: //div[contains(@id,'Actividad_Edit_Find')]&#13;
-co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.reportarDiaHabil(ReportarDiaLaborado.java:78)&#13;
-co.com.proyectobase.screenplay.tasks.ReportarDiaLaborado.performAs(ReportarDiaLaborado.java:41)&#13;
-co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaReportar(MaxtimeStepDefinition.java:53)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reporte diario de trabajo maxtime" skipped="0" tests="1" time="104.42" timestamp="2019-06-06 08:36:02"><testcase name="Reportar actividades de trabajo de hoy"><error message="unexpected alert open: {Alert text : Usted está a punto de eliminar el registro seleccionado (s). ¿Desea continuar?}&#10;  (Session info: chrome=74.0.3729.169)&#10;  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds: null&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0YX2MY', ip: '172.17.27.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\lmarinc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}&#10;Session ID: 4886ae084d9b1406e0daafca94c60365&#10;*** Element info: {Using=xpath, value=//iframe}" type="java.lang.AssertionError">unexpected alert open: {Alert text : Usted está a punto de eliminar el registro seleccionado (s). ¿Desea continuar?}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0YX2MY', ip: '172.17.27.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\lmarinc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 4886ae084d9b1406e0daafca94c60365
+*** Element info: {Using=xpath, value=//iframe}</error><system-err>unexpected alert open: {Alert text : Usted está a punto de eliminar el registro seleccionado (s). ¿Desea continuar?}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0YX2MY', ip: '172.17.27.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\lmarinc\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 4886ae084d9b1406e0daafca94c60365
+*** Element info: {Using=xpath, value=//iframe}&#13;
+co.com.proyectobase.screenplay.tasks.CerrarDia.performAs(CerrarDia.java:21)&#13;
+co.com.proyectobase.screenplay.stepdefinitions.MaxtimeStepDefinition.diligenciaLosDatosNecesariosParaReportar(MaxtimeStepDefinition.java:55)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>
