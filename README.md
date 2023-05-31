@@ -2,7 +2,7 @@
 # Proyecto de Automatización Web con Selenium, Cucumber y Screenplay
 
 Este proyecto utiliza Selenium, Cucumber y el patrón de diseño Screenplay para realizar pruebas automatizadas en aplicaciones web. Se utiliza Maven como gestor de dependencias.
-[Ver informe de ejecución](https://github.com/luiscarlosmarca/RobotRetos/blob/master/target/site/serenity/0a6d7f69240ec2a89df54194439f78ea80b77a00a1d1744bd8533e1a80a357c2.html)
+[Ver informe de ejecución](https://luiscarlosmarca.github.io/Selenium_Web_Automation/target/site/serenity/0a6d7f69240ec2a89df54194439f78ea80b77a00a1d1744bd8533e1a80a357c2.html)
 
 ## [Ver repositorio](https://github.com/luiscarlosmarca/RobotRetos)
 
