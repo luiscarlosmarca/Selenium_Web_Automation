@@ -3,6 +3,11 @@
 
 Este proyecto utiliza Selenium, Cucumber y el patrón de diseño Screenplay para realizar pruebas automatizadas en aplicaciones web. Se utiliza Maven como gestor de dependencias.
 
+
+## [Ver repositorio](https://github.com/luiscarlosmarca/RobotRetos)
+
+## [Ver más proyectos](https://luiscarlosmarca.github.io/intro-project/intro.html)
+
 ### Versión utilizada
 
 - Serenity Core: 1.8.3
