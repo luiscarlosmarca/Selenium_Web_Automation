@@ -1,0 +1,20 @@
+/target
+/.idea
+/logs
+/logs/*
+/history
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+.gradle
+**/build/
+!src/**/build/
+/*.log
+/.log
+# IntelliJ
+out/
+.idea_modules/
+# Ignore Gradle build output directory
+/build
+*.log
