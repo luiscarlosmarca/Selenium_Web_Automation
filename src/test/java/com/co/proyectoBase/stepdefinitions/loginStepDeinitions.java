@@ -5,6 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import static com.co.proyectoBase.stepdefinitions.setupConfiguration.User;
+import static com.co.proyectoBase.task.LoginTask.withCredentials;
 import static com.co.proyectoBase.task.OpenPage.openPage;
 
 public class loginStepDeinitions {
@@ -12,6 +13,7 @@ public class loginStepDeinitions {
     public void that_the_user_is_in_the_application() {
         String url = "https://bonigarcia.dev/selenium-webdriver-java/login-form.html";
         User.attemptsTo(openPage(url));
+        User.attemptsTo(withCredentials("user","user"));
     }
     @When("the user logs in successfully")
     public void the_user_logs_in_successfully() {
